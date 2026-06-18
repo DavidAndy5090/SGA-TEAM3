@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block title %}Comprar Pasaje - Pool Estrada{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+  <div class="card shadow p-4 mx-auto" style="max-width: 600px;">
+    <h5 class="fw-bold text-primary mb-4">🎟️ Comprar Pasaje</h5>
+    <form>
+      <div class="mb-3">
+        <label class="form-label">Origen</label>
+        <select class="form-select">
+          <option>Huancavelica</option>
+          <option>Huancayo</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Destino</label>
+        <select class="form-select">
+          <option>Huancayo</option>
+          <option>Huancavelica</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Fecha de viaje</label>
+        <input type="date" class="form-control">
+      </div>
+      <button type="submit" class="btn btn-primary w-100">🔍 Buscar disponibilidad</button>
+    </form>
+  </div>
+</div>
+{% endblock %}

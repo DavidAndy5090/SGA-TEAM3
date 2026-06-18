@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block title %}Dashboard - Pool Estrada{% endblock %}
+
+{% block content %}
+<div class="d-flex">
+  <div class="bg-primary text-white vh-100 p-3" style="width:220px;">
+    <h5 class="fw-bold mb-4">🚌 Pool Estrada</h5>
+    <ul class="list-unstyled">
+      <li class="mb-2"><a href="#" class="text-white text-decoration-none">📋 Pasajes</a></li>
+      <li class="mb-2"><a href="#" class="text-white text-decoration-none">📦 Encomiendas</a></li>
+      <li class="mb-2"><a href="#" class="text-white text-decoration-none">🛣️ Rutas</a></li>
+      <li class="mb-2"><a href="#" class="text-white text-decoration-none">👥 Usuarios</a></li>
+    </ul>
+  </div>
+  <div class="flex-grow-1 p-4">
+    <h4 class="mb-4">Panel Principal</h4>
+    <div class="row g-3">
+      <div class="col-md-3">
+        <div class="card text-white bg-success p-3 text-center shadow">
+          <h6>Pasajes Vendidos</h6><h2>--</h2>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-white bg-info p-3 text-center shadow">
+          <h6>Encomiendas</h6><h2>--</h2>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-white bg-warning p-3 text-center shadow">
+          <h6>Rutas Activas</h6><h2>--</h2>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-white bg-danger p-3 text-center shadow">
+          <h6>Usuarios</h6><h2>--</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
