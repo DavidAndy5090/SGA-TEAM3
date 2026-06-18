@@ -1,0 +1,12 @@
+/* Pool Estrada - Estilos personalizados */
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.card {
+    border-radius: 10px;
+}
