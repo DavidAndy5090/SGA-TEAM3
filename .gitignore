@@ -153,6 +153,11 @@ activemq-data/
 .venv
 env/
 venv/
+__pycache__/
+*.pyc
+db.sqlite3
+.env
+media/
 ENV/
 env.bak/
 venv.bak/
