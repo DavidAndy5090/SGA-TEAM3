@@ -20,7 +20,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
+ HEAD
 SECRET_KEY = 'django-insecure-wl@6pr358^-nh-ho0p58f^0&f19w5*@+vk^3-wu(txf)z%o2w5'
+
+SECRET_KEY = 'django-insecure-(piy9-&$#-o98*05q6dwz=nro*-yjev_9#&=rxrrnomvrr+ew!'
+ 6f882950a9327da9550c50b0aa78b51fba19a116
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -31,13 +35,17 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+ HEAD
     # Apps de Django
+
+ 6f882950a9327da9550c50b0aa78b51fba19a116
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+ HEAD
 
     # Django REST Framework
     'rest_framework',
@@ -47,16 +55,26 @@ INSTALLED_APPS = [
     'pasajes',
     'encomiendas',
     'rutas_buses',
+
+    'rest_framework', # Django REST Framework
+    'accounts',
+    'academico',
+    'matricula',
+    'calificaciones',
+ 6f882950a9327da9550c50b0aa78b51fba19a116
     'reportes',
     'api',
 ]
 
+ HEAD
 # 🌎 Configuración de idioma y zona horaria
 LANGUAGE_CODE = 'es-pe'
 TIME_ZONE = 'America/Lima'
 USE_I18N = True
 USE_TZ = True
 
+
+ 6f882950a9327da9550c50b0aa78b51fba19a116
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -121,9 +139,15 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.1/topics/i18n/
 
+ HEAD
 LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'UTC'
+
+LANGUAGE_CODE = 'es-pe'
+
+TIME_ZONE = 'America/Lima'
+ 6f882950a9327da9550c50b0aa78b51fba19a116
 
 USE_I18N = True
 
