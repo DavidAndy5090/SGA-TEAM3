@@ -6,11 +6,11 @@ Commits.
 ## Equipo — [Nombre del Equipo]
 | Rol | Integrante | GitHub |
 |---------------|---------------------|------------------|
-| Product Owner | [Nombre] | @usuario |
-| Scrum Master | [Nombre] | @usuario |
-| Backend Dev | [Nombre] | @usuario |
-| Frontend Dev | [Nombre] | @usuario |
-| QA / DevOps | [Nombre] | @usuario |
+| Product Owner | [Mandy] | @2024141022-blip |
+| Scrum Master | [David_Andy] | @DavidAndy5090 |
+| Backend Dev | [Jhoana] | @2024141024-pixel |
+| Frontend Dev | [David] | @DARHA33 |
+| QA / DevOps | [Fernado] | @FernadoRH |
 ## Stack Tecnológico
 - Python 3.12+ | Django 5.x | DRF 3.15+
 - Bootstrap 5 | SQLite (dev) | PostgreSQL (prod)
